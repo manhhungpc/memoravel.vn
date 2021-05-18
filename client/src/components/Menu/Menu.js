@@ -7,6 +7,26 @@ function Menu() {
       {/* ví dụ về dùng logo */}
       <div className="logo">
         <img src="/logo.png" alt="logo" />
+        <div className="navbar">
+          <a href="#" className="nav-link">
+            Home
+          </a>
+          <a href="#" className="nav-link">
+            Meminfo
+          </a>
+          <a href="#" className="nav-link">
+            Memdraw
+          </a>
+          <a href="#" className="nav-link">
+            Memoravel
+          </a>
+          <a href="#" className="nav-link">
+            Shop
+          </a>
+          <a href="#" className="nav-link">
+            Blog
+          </a>
+        </div>
       </div>
 
       {/* Write code here */}
