@@ -10,7 +10,7 @@ function MemBox({ mem: { title, content }, imageFirst }) {
           <div className="container">
             <div className="infoRight">
               <div className="dash"></div>
-              <p className="header-memBox">HIKING ESSENTIALS</p>
+              <span className="header-memBox">HIKING ESSENTIALS</span>
               <div className="title">{title}</div>
               <p className="content">{content}</p>
               <a href="#">Read more</a>
@@ -26,7 +26,7 @@ function MemBox({ mem: { title, content }, imageFirst }) {
           <div className="container">
             <div className="infoLeft">
               <div className="dash"></div>
-              <p className="header-memBox">GET STARTED</p>
+              <span className="header-memBox">GET STARTED</span>
               <div className="title">{title}</div>
               <div className="content">{content}</div>
               <a href="#">Read more</a>

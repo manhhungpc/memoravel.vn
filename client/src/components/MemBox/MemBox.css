@@ -20,30 +20,31 @@
   margin: -5rem 0 0 -15rem;
 }
 .dash {
-  display: block;
   background-color: #ec8200;
   padding: 1px;
-  width: 13%;
+  width: 62px;
 }
+
 .header-memBox {
   color: #ec8200;
   font-size: 13px;
   letter-spacing: 4px;
   float: right;
-  position: relative;
-  left: -15rem;
-  top: -10px;
+  position: absolute;
+  left: 4.3rem;
+  top: -9px;
 }
 .title {
   font-size: 55px;
   color: #fff;
   font-family: "Newsreader", serif;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .content {
   margin: 10px 0 20px 0;
   color: #fff;
+  font-size: 14px;
 }
 /*CSS cho content sau, ảnh trước*/
 .img-first {
@@ -55,7 +56,7 @@
   position: relative;
   top: 30%;
   float: right;
-  width: 75vh;
+  width: 65vh;
 }
 
 .infoRight a {
