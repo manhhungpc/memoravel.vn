@@ -1,0 +1,44 @@
+.footers {
+  background-color: #161616;
+  color: #fff;
+  padding: 50px 155px 120px 155px;
+  display: grid;
+  grid-template-columns: 50% auto auto;
+}
+
+/**/
+.infor-footer,
+.title-footer-link {
+  font-family: Times New Roman;
+}
+
+.infor-footer p {
+  margin: 25px 0 100px 0;
+  font-size: 85%;
+  font-family: "Abhaya Libre", serif;
+  line-height: 20px;
+}
+.copyright {
+  color: #8d8c8c;
+  font-weight: 600;
+}
+
+/**/
+.memoravel-link {
+  padding-left: 100px;
+}
+.title-footer-link {
+  color: #fbd784;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.link-to-page {
+  list-style-type: none;
+}
+.link-to-page a {
+  text-decoration: none;
+  line-height: 34px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Basic", sans-serif;
+}
